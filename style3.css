@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 194, 243);
+    font-size: 1.5rem;
+    margin: 100px auto;
+     /* transform-origin: top left; */
+     /* transform-origin: 0% 100%;  */
+    transition: transform 1s ease-out;
+
+}
+.box:hover{
+    transform: rotate(180deg);
+    /* transform: scale(2); */
+    /* transform: scalex(2); */
+    /* transform: scaley(2); */
+    /* transform: scale(3,2); */
+    /* transform: translate(-50px,-40px); */
+    /* transform: translatex(100px); */
+    /* transform: skew(20deg,50deg); */
+}

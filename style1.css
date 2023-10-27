@@ -1,0 +1,58 @@
+/* .box{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(243, 11, 54);
+    /* animation-name: bg-color;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out; */
+    /* animation:bg-color 3s 2 ease-out; 
+}  */
+
+/* @keyframes bg-color{
+    from{
+        background-color: rgb(243, 11, 54);
+    }
+    to{
+        background-color: rgb(74, 241, 52);
+    }
+}  */
+
+.box1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: move-around;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    position: relative;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes move-around{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        background-color: rgb(227, 237, 37);
+    }
+    50%{
+        top:300px;
+        left:300px;
+    }
+    75%{
+        top: 300px;
+        left: 0;
+        background-color: rgb(121, 53, 248);
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
